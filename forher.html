@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>To My Sweet Candy 🍬 | By Madhur ❤️</title>
+
+<meta name="theme-color" content="#ff5ea8">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- PRELOADER -->
+
+<div id="loader">
+
+<div class="loader-heart">❤️</div>
+
+<p>Loading Memories...</p>
+
+</div>
+
+<!-- FLOATING PARTICLES -->
+
+<div id="particles"></div>
+
+<div id="floatingHearts"></div>
+
+<div id="petals"></div>
+
+<!-- NAVBAR -->
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+Candy 🍬
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#letter">Letter</a></li>
+
+<li><a href="#gallery">Memories</a></li>
+
+<li><a href="#music">Playlist</a></li>
+
+<li><a href="#future">Future</a></li>
+
+<li><a href="#surprise">Surprise</a></li>
+
+</ul>
+
+<button id="themeToggle">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-left">
+
+<span class="tag">
+
+Made With Endless Love ❤️
+
+</span>
+
+<h1>
+
+To My Sweet Candy 🍬
+
+</h1>
+
+<h2>
+
+My Dearest Isha ❤️
+
+</h2>
+
+<p id="typingText"></p>
+
+<div class="heroButtons">
+
+<button id="letterBtn">
+
+💌 Read My Letter
+
+</button>
+
+<button id="memoryBtn">
+
+📸 Our Memories
+
+</button>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="heartCircle">
+
+<div class="mainHeart">
+
+❤️
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LOVE QUOTE -->
+
+<section class="quoteSection">
+
+<div class="glass">
+
+<h2>
+
+"You are my favorite notification."
+
+</h2>
+
+<p>
+
+Some people wait forever to meet their soulmate.
+
+I was lucky enough to meet mine.
+
+Her name is Isha.
+
+But my heart simply calls her...
+
+Candy 🍬❤️
+
+</p>
+
+</div>
+
+</section>
+
+<!-- RELATIONSHIP TIMER -->
+
+<section class="timerSection">
+
+<h2>
+
+⏳ Every Second With You Matters
+
+</h2>
+
+<div class="timerGrid">
+
+<div class="timerCard">
+
+<h1 id="days">
+
+0
+
+</h1>
+
+<span>Days</span>
+
+</div>
+
+<div class="timerCard">
+
+<h1 id="hours">
+
+0
+
+</h1>
+
+<span>Hours</span>
+
+</div>
+
+<div class="timerCard">
+
+<h1 id="minutes">
+
+0
+
+</h1>
+
+<span>Minutes</span>
+
+</div>
+
+<div class="timerCard">
+
+<h1 id="seconds">
+
+0
+
+</h1>
+
+<span>Seconds</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LOVE ENVELOPE -->
+
+<section id="letter" class="envelopeSection">
+
+<h2>
+
+💌 A Letter For Candy
+
+</h2>
+
+<p>
+
+Click the envelope...
+
+</p>
+
+<div class="envelope" id="envelope">
+
+<div class="front"></div>
+
+<div class="letterInside">
+
+<h2>
+
+Dear Candy ❤️
+
+</h2>
+
+<p>
+
+There are countless beautiful people in this world,
+
+but none of them are you.
+
+You have become my peace,
+
+my happiness,
+
+my safe place,
+
+and the best chapter of my life.
+
+Thank you for existing.
+
+Thank you for choosing me.
+
+I promise to keep choosing you,
+
+today,
+
+tomorrow,
+
+and every day after that.
+
+I love you more than words can ever explain.
+
+</p>
+
+<h3>
+
+Forever Yours,
+
+<br>
+
+Madhur ❤️
+
+</h3>
+
+</div>
+
+</div>
+
+</section>
+<!-- PREMIUM MUSIC PLAYER -->
+
+<section id="music" class="musicSection">
+
+    <div class="sectionHeading">
+
+        <span>🎵 OUR PLAYLIST</span>
+
+        <h2>Every Song Has Your Name</h2>
+
+        <p>
+            Every melody reminds me of you, Candy ❤️
+        </p>
+
+    </div>
+
+    <div class="musicCard">
+
+        <div class="albumArt">
+
+            ❤️
+
+        </div>
+
+        <div class="songInfo">
+
+            <h3 id="songName">
+
+                Our Song
+
+            </h3>
+
+            <p>
+
+                Madhur ❤️ Candy
+
+            </p>
+
+        </div>
+
+        <audio id="audioPlayer">
+
+            <source src="music/song1.mp3" type="audio/mpeg">
+
+        </audio>
+
+        <input
+            id="seekBar"
+            type="range"
+            min="0"
+            max="100"
+            value="0">
+
+        <div class="playerButtons">
+
+            <button id="shuffle">
+
+                <i class="fa-solid fa-shuffle"></i>
+
+            </button>
+
+            <button id="previous">
+
+                <i class="fa-solid fa-backward"></i>
+
+            </button>
+
+            <button id="playPause">
+
+                <i class="fa-solid fa-play"></i>
+
+            </button>
+
+            <button id="next">
+
+                <i class="fa-solid fa-forward"></i>
+
+            </button>
+
+            <button id="repeat">
+
+                <i class="fa-solid fa-repeat"></i>
+
+            </button>
+
+        </div>
+
+        <div class="volumeBox">
+
+            <i class="fa-solid fa-volume-high"></i>
+
+            <input
+                type="range"
+                id="volume"
+                min="0"
+                max="1"
+                step="0.1"
+                value="1">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MEMORIES -->
+
+<section id="gallery" class="gallerySection">
+
+    <div class="sectionHeading">
+
+        <span>📸 MEMORIES</span>
+
+        <h2>Our Beautiful Journey</h2>
+
+        <p>
+
+            Every photo is a chapter of our love story.
+
+        </p>
+
+    </div>
+
+    <div class="galleryGrid">
+
+        <div class="memoryCard">
+
+            <img src="images/memory1.jpeg">
+
+            <div class="memoryOverlay">
+
+                ❤️ Our Smile
+
+            </div>
+
+        </div>
+
+        <div class="memoryCard">
+
+            <img src="images/memory2.jpeg">
+
+            <div class="memoryOverlay">
+
+                🌸 Forever
+
+            </div>
+
+        </div>
+
+        <div class="memoryCard">
+
+            <img src="images/memory3.jpeg">
+
+            <div class="memoryOverlay">
+
+                🍬 My Candy
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox">
+
+    <span id="closeLightbox">
+
+        &times;
+
+    </span>
+
+    <button id="prevImage">
+
+        ❮
+
+    </button>
+
+    <img id="lightboxImage">
+
+    <button id="nextImage">
+
+        ❯
+
+    </button>
+
+</div>
+
+<!-- REASONS -->
+
+<section class="reasonSection">
+
+    <div class="sectionHeading">
+
+        <span>❤️ WHY I LOVE YOU</span>
+
+        <h2>100 Reasons</h2>
+
+    </div>
+
+    <div class="reasonCard">
+
+        <h3 id="reasonNumber">
+
+            Reason #1
+
+        </h3>
+
+        <p id="reasonText">
+
+            Because your smile makes my entire world brighter.
+
+        </p>
+
+        <button id="nextReason">
+
+            Next Reason ❤️
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- OUR FUTURE -->
+
+<section id="future" class="timelineSection">
+
+    <div class="sectionHeading">
+
+        <span>🌙 OUR FUTURE</span>
+
+        <h2>Dreaming Together</h2>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="timelineItem">
+
+            💕 More Late Night Calls
+
+        </div>
+
+        <div class="timelineItem">
+
+            🌸 More Adventures Together
+
+        </div>
+
+        <div class="timelineItem">
+
+            ✈️ Our Dream Trip
+
+        </div>
+
+        <div class="timelineItem">
+
+            🏡 Building Our Future
+
+        </div>
+
+        <div class="timelineItem">
+
+            ❤️ Growing Old Together
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SURPRISE -->
+
+<section id="surprise" class="surpriseSection">
+
+    <div class="glass surpriseCard">
+
+        <h2>
+
+            🎁 A Surprise For My Candy
+
+        </h2>
+
+        <p>
+
+            Every click brings a new message from my heart.
+
+        </p>
+
+        <button id="surpriseButton">
+
+            Surprise Me ❤️
+
+        </button>
+
+        <div id="surpriseText">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footerContent">
+
+        <h2>
+
+            To My Sweet Candy 🍬
+
+        </h2>
+
+        <p>
+
+            If I had one wish...
+
+            it would simply be to spend every tomorrow with you.
+
+        </p>
+
+        <h3>
+
+            Forever Yours ❤️
+
+            <br>
+
+            Madhur
+
+        </h3>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
